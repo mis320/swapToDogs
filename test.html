@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>设置select元素的默认值</title>
+</head>
+
+<body style="text-align:center;">
+    
+    <p>设置Professional选项为默认值</p>
+    <select name="plan" id="plan">
+        <option value="free">Free</option>
+        <option value="starter">Starter </option>
+        <option value="professional" >Professional</option>
+        <option value="corporate">Corporate</option>
+    </select>
+</body>
+
+<script>
+
+
+let listUl = document.getElementById("plan");
+listUl.options[1].selected = true
+
+</script>
+
+</html>
